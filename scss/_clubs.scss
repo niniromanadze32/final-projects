@@ -1,0 +1,50 @@
+main{
+    img{
+       width: 100%;
+       height: 250px;
+    }
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,3);
+    transition: 0.3s;
+    width: 350px;
+    height: 100%;
+    margin: 30px;
+    h4{
+    font-family: "BPG Banner SuperSquare", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(155, 11, 252);
+    }
+    p{
+        color: red;
+    }
+    
+}
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 5px 17px;
+  }
+.card{
+    a:hover{
+        color: yellow;
+        
+    }
+    a{  
+        
+        font-size: 23px;
+        font-weight: 700;
+        color: rgb(12, 8, 240);
+    }
+    
+}
