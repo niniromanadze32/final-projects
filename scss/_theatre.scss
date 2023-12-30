@@ -19,6 +19,9 @@
         margin-top: 37px;
     }
     p{
+        @media(max-width:590px){
+            font-size: 23px;
+        }
         color: brown;
         font-weight: 700;
         font-size: 30px;
@@ -29,7 +32,8 @@
         }
         display: inline-block;
         width:550px;
-        margin-left: 35px;
+        display: flex;
+        justify-content: center;
     }
     .line3{
         @media(max-width:1125px){
@@ -72,7 +76,8 @@
         margin-left: 100px;
         }
         @media(max-width:590px){
-        margin-left: 0;
+        margin-left: 7px;
+        
         }
         @media(max-width:507px){
             width:330px ;
@@ -107,7 +112,9 @@
             }
         @media(max-width:507px){
             width:330px;
+            
         }
+
         height: 59px;
         width: 470px;
         background: white;
@@ -119,6 +126,7 @@
         color:rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
+        
     }}
     
     
@@ -151,6 +159,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            
         }
         display: inline-block;
         vertical-align: middle;

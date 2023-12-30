@@ -1,4 +1,8 @@
 .all-news{
+    @media(max-width:450px){
+        display: flex;
+        justify-content: center;
+    }
     display: flex;
     flex-direction: row;
     justify-content: space-between;
